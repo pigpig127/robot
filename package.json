@@ -14,7 +14,7 @@
     "fix:conf": "tr override --json.tauri_updater_active=false",
     "download": "tr download --mdfile=README.md,README-ZH_CN.md --f1=43 --f2=43",
     "fmt:rs": "cargo fmt",
-    "release": "tr release --git",
+    "release": "tr release --git"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
