@@ -181,4 +181,8 @@ jobs:
       - name: Query version number
         run: echo "version=${GITHUB_REF:11}" >> $GITHUB_ENV
 
-
+      - uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAURI_PRIVATE_KEY: dW50cnVzdGVkIGNvbW1lbnQ6IHJzaWduIGVuY3J5cHRlZCBzZWNyZXQga2V5ClJXUlRZMEl5UDhZa1R0OCtUR0RlME5iclRCMDZwUjVZdmhUdGQwYUtQWlZTTFVETzlPUUFBQkFBQUFBQUFBQUFBQUlBQUFBQVFLZUI0RG5oeFFmN2hQR0NBSkpCUWp4UjRrM3VneG4xMm0wY3hTaldzbzRXQUpXSWNvSTEyK0VQOFRtMFQ2VFpxcE8vT1BZd20vajdwc3VmSUszenVrc2J5cHVobVpxSXVDdGIraGNDRXM0RTdnM3drQmNHRDBBajZ1amFKR1FCbFhGa2gxQTEyTmM9Cg==
+          TAURI_KEY_PASSWORD: 123456
