@@ -1,0 +1,35 @@
+{
+  "version": "v1.4.0",
+  "notes": "Fix:\n\n- Fixed the issue where the cmd slash command does not work in some cases.\n- Moved the export button to the sidebar to prevent layout conflicts.",
+  "pub_date": "2023-09-19T02:10:00.664Z",
+  "platforms": {
+    "win64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRajQrVGVtSWpGNHRtbk5TNUN0QndDR04zQ0d0Sml5aFViSW9MTGp3NWVpdFJDNUZQalVEZ0tnK2JtVVhxbUJTMDQxNFBHMjdiWVl5N0Q1M0Y1eGdrcnc1V3c4WWwzL2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjk1MDg5MzA2CWZpbGU6cm9ib3RfMS40LjBfeDY0X2VuLVVTLm1zaS56aXAKSGdMNUxCbDVIRkZJUk9LdlpZQ1NVdTlmNHhRd1FBUkp1Z21iUitvd1NaTUZIRmtGa2tSL0c2VVU3TlJnNjIveEE4NzVqUUsrYklYU1ZlTm5GZDN1REE9PQo=",
+      "url": "https://github.com/pigpig127/robot/releases/download/v1.4.0/robot_1.4.0_windows_x86_64.msi.zip"
+    },
+    "linux": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRajQrVGVtSWpGNHJ4YkZtcDJyOFZJVTNydGlvbGlMako2YkpxdGwwWjFDWXZYTFRScHVVT1ZocDErZ2pvbnVWWll0bjNGVVhEZFcraDBtdEpCT29yYm9iYkU5bWVpaHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjk1MDg5MTg3CWZpbGU6cm9ib3RfMS40LjBfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CnFmdFpTVnFScittOTFzUjdPUThvLzJSbzZyc3lka2RlVHF4WFdqcGhPYlBqMXA0VUFvL2M3cG5tZjBUKzhmbnJHVkNQRkNKVEVWd3ZCbExKQTVTWEF3PT0K",
+      "url": "https://github.com/pigpig127/robot/releases/download/v1.4.0/robot_1.4.0_linux_x86_64.AppImage.tar.gz"
+    },
+    "darwin": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRajQrVGVtSWpGNHRzS1BaOVh4R3hLQWJRZ2ZoaDFwdnB2V3NlRkFoOGd0bXBUYUNZcGxZUWhkb0JXMUh2MHUwSmpIY3J1S2JncHdVZXBUd1FMb1BMdnQ0em1MY1I2dVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjk1MDg4OTkyCWZpbGU6cm9ib3QuYXBwLnRhci5negpXdWR5T292bTVZbld2cHprT2k5cDJqaVBkaENiMnJNSXYyckNHUGxXWUR4NE42WlEwQnFTY2VTRDB5b1UraDZUTkVlNGc5S3Ntckc3TEZMeWkwcnpBQT09Cg==",
+      "url": "https://github.com/pigpig127/robot/releases/download/v1.4.0/robot_1.4.0_macos_x86_64.app.tar.gz"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRajQrVGVtSWpGNGw5MSs3cEdaaEUzVkVUSG1oWGhJaDllVmlFc3NtU2l6bmJUWk1ldnV2anZZUDhZRjJ6eDQxT3BSR0VqQjNUamFLRUFHVXFHbHdlOTdJdTR2Ny9aWFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjk1MDg5MDY0CWZpbGU6cm9ib3QuYXBwLnRhci5negpiNWwwOEJxUnFPS3BXb3hrdDEvU0lnVG1lek44bmxxaFIvK3g5OUdvU0hxbUZrZmlMR0ZqNWQ2K3hPZVJaK0s1TnZZRzFQNys2VVQ0bDczd09NYnNBUT09Cg==",
+      "url": "https://github.com/pigpig127/robot/releases/download/v1.4.0/robot_1.4.0_macos_aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRajQrVGVtSWpGNHRzS1BaOVh4R3hLQWJRZ2ZoaDFwdnB2V3NlRkFoOGd0bXBUYUNZcGxZUWhkb0JXMUh2MHUwSmpIY3J1S2JncHdVZXBUd1FMb1BMdnQ0em1MY1I2dVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjk1MDg4OTkyCWZpbGU6cm9ib3QuYXBwLnRhci5negpXdWR5T292bTVZbld2cHprT2k5cDJqaVBkaENiMnJNSXYyckNHUGxXWUR4NE42WlEwQnFTY2VTRDB5b1UraDZUTkVlNGc5S3Ntckc3TEZMeWkwcnpBQT09Cg==",
+      "url": "https://github.com/pigpig127/robot/releases/download/v1.4.0/robot_1.4.0_macos_x86_64.app.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRajQrVGVtSWpGNHJ4YkZtcDJyOFZJVTNydGlvbGlMako2YkpxdGwwWjFDWXZYTFRScHVVT1ZocDErZ2pvbnVWWll0bjNGVVhEZFcraDBtdEpCT29yYm9iYkU5bWVpaHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjk1MDg5MTg3CWZpbGU6cm9ib3RfMS40LjBfYW1kNjQuQXBwSW1hZ2UudGFyLmd6CnFmdFpTVnFScittOTFzUjdPUThvLzJSbzZyc3lka2RlVHF4WFdqcGhPYlBqMXA0VUFvL2M3cG5tZjBUKzhmbnJHVkNQRkNKVEVWd3ZCbExKQTVTWEF3PT0K",
+      "url": "https://github.com/pigpig127/robot/releases/download/v1.4.0/robot_1.4.0_linux_x86_64.AppImage.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRajQrVGVtSWpGNHRtbk5TNUN0QndDR04zQ0d0Sml5aFViSW9MTGp3NWVpdFJDNUZQalVEZ0tnK2JtVVhxbUJTMDQxNFBHMjdiWVl5N0Q1M0Y1eGdrcnc1V3c4WWwzL2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjk1MDg5MzA2CWZpbGU6cm9ib3RfMS40LjBfeDY0X2VuLVVTLm1zaS56aXAKSGdMNUxCbDVIRkZJUk9LdlpZQ1NVdTlmNHhRd1FBUkp1Z21iUitvd1NaTUZIRmtGa2tSL0c2VVU3TlJnNjIveEE4NzVqUUsrYklYU1ZlTm5GZDN1REE9PQo=",
+      "url": "https://github.com/pigpig127/robot/releases/download/v1.4.0/robot_1.4.0_windows_x86_64.msi.zip"
+    }
+  }
+}
