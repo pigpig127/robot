@@ -1,9 +1,9 @@
 "use client"
 import MyTooltip from "@/components/MyTooltip";
-import { Box, Card, Flex, Grid, IconButton, useTheme } from "@chakra-ui/react";
+import { Avatar, Box, Card, Flex, Grid, IconButton, useTheme } from "@chakra-ui/react";
 import MyIcon from '@/components/Icon'
 import { useRouter, useSearchParams } from "next/navigation";
-import Avatar from '@/components/Avatar';
+// import Avatar from '@/components/Avatar';
 import styles from './index.module.css';
 import { PageRouterEntity } from "@/types/page";
 
@@ -52,7 +52,7 @@ const ChisonLinks = (props: {customInfo: PageRouterEntity}) => {
             }
           >
             <Flex alignItems={'center'} h={'38px'}>
-              <Avatar src={app.icon} borderRadius={'md'} w={'28px'} />
+              <Avatar name={app.avatarName} className='w-6 h-6' />
               <Box ml={3}>{app.name}</Box>
             </Flex>
             <Box

@@ -35,7 +35,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
 
   return (
     <html lang="en">
-      <body className={`${inter.className} h-screen w-full bg-gray-200 dark:bg-black`}>
+      <body className={`${inter.className} h-screen w-full bg-gray-100 dark:bg-black`}>
         <ChakraProvider theme={theme}>
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />
           {isPc?
